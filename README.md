@@ -16,9 +16,9 @@ sudo chown syncplay /opt/syncplay
 ###Next we want to download the syncplay files and unpack them. The version of syncplay when this was wrote was 1.4.0 but make sure to check the website for latest updates.
 ```
 cd /opt/syncplay
-wget https://github.com/Syncplay/syncplay/archive/v1.4.0.tar.gz
-tar -xvzf v1.4.0.tar.gz
-cd /opt/syncplay/syncplay-1.4.0
+wget https://github.com/Syncplay/syncplay/archive/v1.5.4.tar.gz
+tar -xvzf v1.5.4.tar.gz
+cd /opt/syncplay/syncplay-1.5.4
 ```
 
 ###Syncplay requires python 2.7.* and a few dependencies
@@ -62,3 +62,6 @@ screen -S syncplay -d -m ./syncplayServer.py --password  --port 8999 --salt salt
 
 ###Now we should be up and running and all you have to do is open the syncplay client on your desktop and connect to ip:8999
 
+###You can find the latest version here
+
+https://syncplay.pl/download/
